@@ -61,4 +61,4 @@ There may be several ways to create PDF, but recommend using the `jsPDF` library
 
 **Ticket 5: Review and Refactoring**
 
-### Estimated time to complete 5 tickets  < 2 hours.
+### Estimated time to complete 5 tickets is 2 hours.

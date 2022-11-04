@@ -22,7 +22,7 @@ describe("deterministicPartitionKey", () => {
     expect(key).toEqual(JSON.stringify(object.partitionKey));
   });
 
-  it("Returns the partition key if it is string", () => {
+  it("Returns the partition key if it is string and is not longer than MAX_PARTITION_KEY_LENGTH", () => {
     const object = {
       partitionKey: "input key",
     };
